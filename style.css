@@ -1,75 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Shadows+Into+Light');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-
-* {
-	margin: 0;
+.fav-entry {
+  border: 2px solid black;
 }
 
-body {
-    width: 100%;
-	height: auto;
-	background: url('images/jakob-owens-1309830-unsplash.jpg') no-repeat;
-	background-size: 100% 180%;
-	color: white;
-	text-align: center;
-	font-size: 1.5em;
-	font-family: 'Shadows Into Light', cursive;
-    overflow-x: hidden;
+.remove-icon:hover {
+  font-size: 2em;
+  cursor: pointer;
 }
-
-h1 {
-	font-family: 'Amatic SC', cursive; /* from Google Fonts */
-	font-size: 10vmin;
-	color: white;
-}
-
-#intro {
-	width: 95%;
-	margin: auto;
-	padding: 60px 0;
-	font-size: 3vmax;
-	color: white;  
-}
-
-button {
-	background: rgba(0, 0, 0, 0.2);
-	color: white;
-	border: 3px solid white;
-	border-radius: 15%;
-	font-size: 5vmin;
-	font-family: 'Shadows Into Light', cursive;
-	transition: background 0.7s;
-}
-button:hover {
-	background: rgba(255, 255, 255, 0.2);
-}
-
-#bottom-half {
-	background-color: rgba(255, 255, 255, 0.2);
-	color: #737373;
-	margin: 50px;
-	font-size: 3.5vmax;
-}
-
-a#jakob {
-	color: wheat;
-}
-a#marion {
-	color: black;
-}
-
-/** BREAKPOINTS **/
-@media screen and (max-width: 960px) {
-	body {
-		background-image: url('images/marion-michele-1464753-unsplash.jpg');
-		background-repeat: no-repeat;
-		background-size: 100% 250%;
-		color: gray;
-	}
-
-	button:hover {
-		color: gray;
-		border: 3px solid gray;
-	}
-}
-
+/*# sourceMappingURL=style.css.map */
