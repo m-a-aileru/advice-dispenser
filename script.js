@@ -80,10 +80,10 @@ testButton.addEventListener("click", () => { console.log(favKeySet) })
 
 
 function removeSomething(entryKey) {    
-    if (favKeySet.has(entryKey)) {
-        sessionStorage.removeItem(entryKey) 
-        favKeySet.remove(entryKey)
-        console.log("Entry removed")
-    }
+    // if (favKeySet.has(entryKey)) {
+    //     sessionStorage.removeItem(entryKey) 
+    //     favKeySet.remove(entryKey)
+    //     console.log("Entry removed")
+    // }
     
 }
